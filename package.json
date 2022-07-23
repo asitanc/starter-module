@@ -3,16 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "NODE_ENV=production next build",
+    "start": "nodemon -w server server/index.js",
+    "serve": "NODE_ENV=production node server/index.js",
+    "lint": "standard --verbose | snazzy"
   },
   "dependencies": {
     "babel-plugin-inline-dotenv": "^1.7.0",
     "babel-plugin-module-resolver": "^4.1.0",
     "babel-plugin-styled-components": "^2.0.7",
     "bootstrap": "^5.1.3",
+    "compression": "^1.7.4",
+    "express": "^4.18.1",
+    "helmet": "^3.23.0",
+    "mongoose": "^6.4.6",
     "next": "12.1.6",
     "react": "18.2.0",
     "react-bootstrap": "^2.4.0",
@@ -23,5 +27,8 @@
   "devDependencies": {
     "eslint": "8.18.0",
     "eslint-config-next": "12.1.6"
-  }
+  },
+  "author": "Adam Šitanc",
+  "license": "MIT",
+  "description": "Starter module for NextJS application"
 }
