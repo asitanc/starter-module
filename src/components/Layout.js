@@ -1,8 +1,13 @@
 import React, { Component } from "react";
+import styled from 'styled-components';
 import { withRouter } from "next/router";
-import { Container } from 'react-bootstrap'
+import { Container } from 'react-bootstrap';
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+
+const PagesContainer = styled.div`
+    min-height: calc(100vh - 54px);
+`
 
 class Layout extends Component {
 
@@ -13,11 +18,11 @@ class Layout extends Component {
         <Navbar />
       </header>
 
-      <main>
+      <PagesContainer>
         <Container>
           {this.props.children}
         </Container>
-      </main>
+      </PagesContainer>
 
       <footer>
         <Footer />

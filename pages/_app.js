@@ -13,7 +13,7 @@ export default function MyApp(props) {
         <title>{title}</title>
       </Helmet>
 
-      <div>
+      <div className='body-wrapper'>
         <Layout>
           <Component {...pageProps} />
         </Layout>
