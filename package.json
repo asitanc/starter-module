@@ -14,18 +14,21 @@
     "babel-plugin-styled-components": "^2.0.7",
     "bootstrap": "^5.1.3",
     "compression": "^1.7.4",
+    "eslint-plugin-react": "^7.31.1",
     "express": "^4.18.1",
     "helmet": "^3.23.0",
     "mongoose": "^6.4.6",
     "next": "12.1.6",
+    "nodemon": "^2.0.19",
     "react": "^17.0.2",
     "react-bootstrap": "^2.4.0",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
-    "styled-components": "^5.3.5"
+    "styled-components": "^5.3.5",
+    "styled-normalize": "^8.0.7"
   },
   "devDependencies": {
-    "eslint": "8.18.0",
+    "eslint": "^8.18.0",
     "eslint-config-next": "12.1.6"
   },
   "author": "Adam Šitanc",

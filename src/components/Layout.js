@@ -6,7 +6,11 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 
 const PagesContainer = styled.div`
-    min-height: calc(100vh - 54px);
+  min-height: calc(100vh + 54px);
+`
+
+const FooterContainer = styled.div`
+  width: 100%;
 `
 
 class Layout extends Component {
@@ -24,9 +28,9 @@ class Layout extends Component {
         </Container>
       </PagesContainer>
 
-      <footer>
+      <FooterContainer>
         <Footer />
-      </footer>
+      </FooterContainer>
     </>)
   }
 }

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Footer = () => {
 
-  return (<></>)
+  return (<>test</>)
 };
 
 export default Footer;
