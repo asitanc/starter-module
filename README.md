@@ -1,4 +1,4 @@
-# Starter module for NextJS React
+# Starter module for NextJS App
 
 The purpose of this repository is to provide the base for your NextJS application. Now, you dont have to think about the project structure, eslint or babel config; you can just cone this repository and build on the top of it!
 
