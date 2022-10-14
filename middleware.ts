@@ -10,7 +10,7 @@ export function middleware(request: NextRequest) {
         request.nextUrl.locale === 'default';
 
     const url = request.nextUrl.clone()
-    url.pathname = `/cs${request.nextUrl.pathname}`
+    url.pathname = `/${request.nextUrl.pathname}`
 
     return shouldHandleLocale
         ? NextResponse.rewrite(url)
