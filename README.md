@@ -1,6 +1,6 @@
 # Starter module for NextJS Web App
 
-The purpose of this repository is to provide the base for your NextJS application. Now, you dont have to think about the project structure, eslint or babel config; you can just cone this repository and build on the top of it!
+The purpose of this repository is to provide the base for your NextJS application using Bootstrap. Now, you don't have to think about the project structure, eslint or babel config; you can just cone this repository and build on the top of it!
 
 ## Structure
 
@@ -40,4 +40,4 @@ By default the app runs on port 3100 (you can change that in the server script) 
 
 ## Other configuration
 
-Eslint configuration can be changed in `.eslintrc.js`; by default the rules are not too strict and checking for PropsTypes is disabled. 
+Eslint configuration can be changed in `.eslintrc.js`; by default the rules are not too strict and checking for PropsTypes is disabled.
