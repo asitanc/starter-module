@@ -1,10 +1,6 @@
 /** @type {import('next').NextConfig} */
 const assetPrefix =  ''
 const isProd = process.env.NODE_ENV === 'production'
-const withPlugins = require("next-compose-plugins")
-const withBundleAnalyzer = require("@next/bundle-analyzer")({
-  enabled: process.env.ANALYZE === "true",
-});
 
 const settings = {
   i18n: {
@@ -25,4 +21,4 @@ const settings = {
   }
 }
 
-module.exports = withPlugins([withBundleAnalyzer], settings)
+module.exports = settings

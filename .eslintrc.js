@@ -16,15 +16,15 @@ module.exports = {
   "plugins": [
       "react"
   ],
+  "settings": {
+      "react": {
+          "version": "detect"
+      }
+  },
   "rules": {
       "react/prop-types": 0,
       "react/react-in-jsx-scope": "off",
       "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts"] }],
       "react/no-unescaped-entities": 0
-  },
-  "settings": {
-    "react": {
-      "version": 'detect'
-    }
-  },
+  }
 }
